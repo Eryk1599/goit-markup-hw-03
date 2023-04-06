@@ -17,6 +17,7 @@ a {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    justify-content: center;
 }
 
 body {
@@ -25,7 +26,6 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.46;
-    width: 1600px;
     margin: 0 auto;
     letter-spacing: 3%;
 }
@@ -44,7 +44,6 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 30px;
-    margin-bottom: -94px;
 }
 .body-contents p,
 span {
@@ -63,7 +62,9 @@ span {
 }
 .main-background {
     background-color: var(--main-and-ft-bg-color);
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 94px;
 }
 .team-backgroud {
     background-color: var(--team-and-filter-button-bg-color);
@@ -80,7 +81,7 @@ span {
     line-height: 1.36;
     text-align: center;
     width: 696px;
-    margin: 200px 452px 40px 452px;
+    margin-bottom: 30px;
 }
 .nav-link {
     color: var(--nav-color);
@@ -173,12 +174,13 @@ span {
     font-size: 16px;
     line-height: 1.87;
     cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 .present-and-team-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .image-title {
     display: flex;
@@ -222,9 +224,6 @@ span {
 }
 .main-content {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 .what-we-do {
     display: flex;
@@ -239,25 +238,21 @@ span {
 .filter {
     display: flex;
     column-gap: 30px;
-    margin-left: 294px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .image-portfolio {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -50px;
     gap: 30px;
 }
 .header-border {
     border-bottom: 1px solid var(--border-color);
 }
-.porfolio-title-border {
-    border-left: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
-}
 .section {
     padding: 94px 0px;
+}
+.section ul {
+    padding-left: 0px;
 }
 .team-border {
     border-bottom-left-radius: 4px;
@@ -269,4 +264,10 @@ span {
 }
 .portfolio-title-space {
     padding: 20px 24px;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.no-gap {
+    display: block;
 }
