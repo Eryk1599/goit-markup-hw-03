@@ -64,7 +64,6 @@ span {
     background-color: var(--main-and-ft-bg-color);
     padding-top: 200px;
     padding-bottom: 200px;
-    margin-bottom: 94px;
 }
 .team-backgroud {
     background-color: var(--team-and-filter-button-bg-color);
@@ -270,4 +269,7 @@ span {
 }
 .no-gap {
     display: block;
+}
+.no-padding {
+    padding-top: 0px;
 }
